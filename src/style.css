@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+  list-style-type: none;
+  background-color: #ccc;
+}
+
+/*STYLE OF DE PAGE */
+.container {
+  background-color: rgb(252, 252, 252);
+  margin: 0 auto;
+  width: 800px;
+  border-radius: 7px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.container h4{
+  text-align: center;
+  margin-bottom: 30px;
+  color:  rgb(43, 129, 101);
+}
+
+.form-container{
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgb(237, 245, 242);
+  padding: 10px;
+  border-radius:7px;
+  border: 1px solid rgb(219, 238, 231);
+}
+.form-container input{
+  background-color: rgb(237, 245, 242);
+  width:90%;
+ color: rgb(121, 103, 103);
+  height: 35px;
+  border: none;
+  outline: none;
+  font-size: 22px;
+
+}
+
+.form-container button{
+  background-color: rgb(43, 129, 101);
+  font-weight: bold;
+  border-radius:7px;
+  height: 35px;
+  border: none;
+  margin-left: 10px;
+  color: #fff;
+  padding: 2px 20px;
+}
+
+.items{
+
+ width: 600px;
+ margin: 50px auto;
+ 
+}
+
+.itens-list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  background-color: rgb(247, 242, 242);
+  padding: 5px 10px;
+}
+
+.btn-acao{
+  display: flex;
+  gap: 20px;
+}
+
+.btn-acao button{
+  font-weight: bold;
+  color:rgb(249, 252, 251); 
+  padding: 2px 10px;
+  border: none;
+  background-color:  rgb(43, 129, 101);
+border-radius: 5px;
+  
+}
